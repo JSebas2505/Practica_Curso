@@ -10,11 +10,11 @@ body {
 .Titulo{
     font-family: cursive;
     font-size: 40px;
+    letter-spacing: 10px;
     color: rgb(255, 255, 255);
     background:linear-gradient(darkblue,black );
     text-align: center;
     box-shadow: 0 0 10px;
-
 }
 .Parrafo{
     font-family: cursive;
@@ -28,12 +28,12 @@ body {
 .Foto{
     width: 500px;
     border-radius: 200px;
-    filter:grayscale(1);
-    transition: all linear 0.5s;
+    filter: blur(15px);
+    transition: all linear 0.3s;
 }
 .Foto:hover{
     border-radius: 0px;
-    filter: grayscale(0);
+    filter: blur(0px);
     cursor: pointer;
 }
 
