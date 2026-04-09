@@ -2,5 +2,14 @@ html,body{
     height: 100%;
 }
 body {
-    background:url(Fondo.jpg);
+    background:url(Fondo.jpg)no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: gray;
+    backgr
+}
+div{
+    color: white;
 }
