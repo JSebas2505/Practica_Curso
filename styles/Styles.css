@@ -11,7 +11,7 @@ body {
     color: rgb(0, 0, 0);
     background:linear-gradient(rgba(255,255,255));
     text-align: center;
-    
+
 }
 .Parrafo{
     color: white;
@@ -20,3 +20,15 @@ body {
     padding: 30px;
     column-count:2;
 }
+.Foto{
+    width: 500px;
+    border-radius: 200px;
+    filter:grayscale(1);
+    transition: all linear 0.5s;
+}
+.Foto:hover{
+    border-radius: 0px;
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
