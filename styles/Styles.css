@@ -8,14 +8,19 @@ body {
 }
 
 .Titulo{
-    color: rgb(0, 0, 0);
-    background:linear-gradient(rgba(255,255,255));
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(darkblue,black );
     text-align: center;
+    box-shadow: 0 0 10px;
 
 }
 .Parrafo{
+    font-family: cursive;
+    font-size: 20px;
+    background:linear-gradient(gray,transparent);
     color: white;
-    background:linear-gradient(rgba(black,gray));
     box-shadow: 0 0 10px #000;
     padding: 30px;
     column-count:2;
