@@ -4,14 +4,19 @@ html,body{
 body {
     background:url(Fondo.jpg)no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-h1{
+.Titulo{
     color: rgb(0, 0, 0);
     background:linear-gradient(rgba(255,255,255));
     text-align: center;
+    
 }
-div{
+.Parrafo{
     color: white;
-    background:linear-gradient(rgba(black));
+    background:linear-gradient(rgba(black,gray));
+    box-shadow: 0 0 10px #000;
+    padding: 30px;
+    column-count:2;
 }
